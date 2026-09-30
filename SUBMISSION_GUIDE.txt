@@ -1,0 +1,49 @@
+ASSIGNMENT SUBMISSION GUIDE
+
+Q1: Submit your public GitHub repository URL.
+
+Q2: Copy EmotionDetection/emotion_detection.py
+
+Q3: Terminal:
+    python
+    from EmotionDetection.emotion_detection import emotion_detector
+    emotion_detector("I am very happy today")
+
+Q4: Copy EmotionDetection/emotion_detection.py
+
+Q5: Terminal:
+    emotion_detector("I am glad this happened")
+
+Q6: Submit GitHub URL for:
+    EmotionDetection/__init__.py
+
+Q7: Terminal:
+    from EmotionDetection.emotion_detection import emotion_detector
+    print("EmotionDetection is a valid package")
+
+Q8: Copy test_emotion_detection.py
+
+Q9:
+    python -m unittest test_emotion_detection.py
+
+Q10: Copy server.py
+
+Q11: Run:
+    python server.py
+    Open http://127.0.0.1:5000
+    Enter "I am very happy today"
+    Take screenshot.
+
+Q12: Copy EmotionDetection/emotion_detection.py
+
+Q13: Copy server.py
+
+Q14: Open the application, leave input blank, click Analyze Emotion,
+    and take screenshot showing:
+    Invalid input! Please enter some text.
+
+Q15: Copy server.py
+
+Q16:
+    pylint server.py
+    Copy the actual terminal output and score.
